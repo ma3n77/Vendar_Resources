@@ -1,0 +1,549 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url("./css/medical-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+}
+
+.title {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+/*----------------------- Subjects ----------------------- */
+
+.phys-sub {
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.phys-list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.phys-1 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-1:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-2 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-2:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-3 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-3:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-4 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-4:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-5 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-5:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-6 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-6:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-7 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-7 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-7:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-8 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-8 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-8:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-9 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-9 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-9:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-10 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-10 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-10:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-11 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-11 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-11:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-12 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-12 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-12:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-13 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-13 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-13:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-14 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-14 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-14:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-15 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-15 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-15:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-16 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-16 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-16:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-17 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-17 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-17:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-18 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-18 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-18:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.phys-19 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.phys-19 a {
+    text-decoration: none;
+    color: black;
+}
+
+.phys-19:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.card {
+    font-size: smaller;
+}
+
+.endo {
+    font-size: smaller;
+}
+
+@media (max-width: 480px) { 
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* --------- Navbar  --------- */
+
+.navbar {
+    background-color: #272727;
+    width: 100%;
+}
+
+.nav-items {
+    padding: 8px;
+}
+
+.Contact-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.Contact-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.Contact-us a:hover {
+    color: lightgray;
+}
+
+.About-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.About-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.About-us a:hover {
+    color: lightgray;
+} 
+
+.Home {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.Home a {
+    text-decoration: none;
+    color: white;
+}
+
+.Home a:hover {
+    color: lightgray;
+}
+
+/* -------- Footer --------  */
+.footer {
+    padding: 40px 0px;
+    background-color: #272727;
+    position: sticky;
+    top: 100%;
+}
+ 
+.footer .socials {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .socials a {
+    font-size: 30px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .socials a:hover {
+    opacity: 100%;
+}
+
+.copy {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.container {
+    min-height: 100vh;
+}

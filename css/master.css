@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-image: url("medical-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+} */
+
+.background-image {
+    background-image: url("medical-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+}
+
+.title {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+/* ------------ Subjects ------------ */
+
+.subjects {
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sub-list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.sub1 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub1:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+}
+
+.sub2 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub2:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub3 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub3 a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.sub3:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub4 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub4:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub5 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub5:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub6 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub6:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub7 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub7 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub7:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+.sub8 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.sub8 a {
+    text-decoration: none;
+    color: black;
+}
+
+.sub8:hover {
+    cursor: pointer;
+    background-color: rgb(131, 128, 128);
+    border-radius: 30px;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+/* Footer */
+.footer {
+    padding: 40px 0px;
+    background-color: #272727;
+    position: sticky;
+    top: 100%;
+}
+ 
+.footer .socials {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .socials a {
+    font-size: 30px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .socials a:hover {
+    opacity: 100%;
+}
+
+.copy {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.container {
+    min-height: 100vh;
+}
+
+/* --------------- Media_Queries ---------------  */
+
+@media (max-width: 480px) { 
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    body {
+        background-size: 350%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+    body {
+        background-size: 350%;
+    }
+}
+
+@media (max-width: 1280px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media (min-width: 1281px) {
+    .container {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* --------- Navbar  --------- */
+
+.navbar {
+    background-color: #272727;
+    width: 100%;
+}
+
+.nav-items {
+    padding: 8px;
+}
+
+.Contact-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.Contact-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.Contact-us a:hover {
+    color: lightgray;
+}
+
+.About-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.About-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.About-us a:hover {
+    color: lightgray;
+} 
+
+.Home {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.Home a {
+    text-decoration: none;
+    color: white;
+}
+
+.Home a:hover {
+    color: lightgray;
+}

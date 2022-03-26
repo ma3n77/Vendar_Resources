@@ -1,0 +1,374 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-image: url("./css/medical-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Karla', sans-serif;
+} */
+
+.background-image {
+    background-image: url("./css/medical-2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+}
+
+.title {
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.bio-sub {
+    font-size: 35px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.bio-list {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.bio-1 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-1:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-2 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-2:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-3 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-3:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-4 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-4 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-4:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-5 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-5 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-5:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-6 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-6 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-6:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-7 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-7 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-7:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-8 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-8 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-8:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bio-9 {
+    list-style: none;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(131, 128, 128);
+    border-radius: 10px;
+    transition: all ease 0.5s;
+}
+
+.bio-9 a {
+    text-decoration: none;
+    color: black;
+}
+
+.bio-9:hover {
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------- Navbar  --------- */
+
+.navbar {
+    background-color: #272727;
+    width: 100%;
+}
+
+.nav-items {
+    padding: 8px;
+}
+
+.Contact-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.Contact-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.Contact-us a:hover {
+    color: lightgray;
+}
+
+.About-us {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.About-us a {
+    text-decoration: none;
+    color: white;
+}
+
+.About-us a:hover {
+    color: lightgray;
+} 
+
+.Home {
+    color: white;
+    display: inline-block;
+    margin: 12px;
+    font-size: 22px;
+}
+
+.Home a {
+    text-decoration: none;
+    color: white;
+}
+
+.Home a:hover {
+    color: lightgray;
+}
+
+
+/* Footer */
+.footer {
+    padding: 40px 0px;
+    background-color: #272727;
+    position: sticky;
+    top: 100%;
+}
+ 
+.footer .socials {
+    text-align: center;
+    padding-bottom: 25px;
+    color: white;
+}
+
+.footer .socials a {
+    font-size: 30px;
+    color: inherit;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+}
+
+.footer .socials a:hover {
+    opacity: 100%;
+}
+
+.copy {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+}
+
+.container {
+    min-height: 100vh;
+}
